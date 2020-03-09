@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f78bc43fa807f3f8c9b3a00c552fb5e5",
+    "revision": "36ededcd4d7f007e74c748cc3c4bc2f7",
     "url": "/cave2_homepage/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cave2_homepage/static/css/2.d8f7068e.chunk.css"
   },
   {
-    "revision": "af2ec0160a8c775876e7",
+    "revision": "ce6e09f784c745b0ab22",
     "url": "/cave2_homepage/static/css/main.68dbb061.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cave2_homepage/static/js/2.349750a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af2ec0160a8c775876e7",
-    "url": "/cave2_homepage/static/js/main.ec082955.chunk.js"
+    "revision": "ce6e09f784c745b0ab22",
+    "url": "/cave2_homepage/static/js/main.473b5885.chunk.js"
   },
   {
     "revision": "f52a7ff0c483251ab935",
@@ -142,14 +142,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "654eb217c8b158dec90ea47d6882268f",
     "url": "/cave2_homepage/static/media/note-5.654eb217.gif"
-  },
-  {
-    "revision": "74e0ed673a046514affb5f9a86f07e59",
-    "url": "/cave2_homepage/static/media/pop-gzh.74e0ed67.png"
-  },
-  {
-    "revision": "484bd0de2f6b2e3dc8d4b2124749d0cc",
-    "url": "/cave2_homepage/static/media/pop-kf.484bd0de.png"
   },
   {
     "revision": "0ff3f6582523eae41e97793f1513febc",
