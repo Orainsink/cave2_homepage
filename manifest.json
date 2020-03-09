@@ -1,0 +1,14 @@
+{
+  "short_name": "cave_demo",
+  "name": "cave_demo",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "keywords": ["cave","贪婪洞穴"]
+}

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/cave2_homepage/static/css/main.68dbb061.chunk.css",
+    "main.js": "/cave2_homepage/static/js/main.ec082955.chunk.js",
+    "runtime-main.js": "/cave2_homepage/static/js/runtime-main.aabec2e4.js",
+    "static/css/2.d8f7068e.chunk.css": "/cave2_homepage/static/css/2.d8f7068e.chunk.css",
+    "static/js/2.349750a5.chunk.js": "/cave2_homepage/static/js/2.349750a5.chunk.js",
+    "index.html": "/cave2_homepage/index.html",
+    "precache-manifest.03483e5c434305c479b80fdd3cc434df.js": "/cave2_homepage/precache-manifest.03483e5c434305c479b80fdd3cc434df.js",
+    "service-worker.js": "/cave2_homepage/service-worker.js",
+    "static/js/2.349750a5.chunk.js.LICENSE.txt": "/cave2_homepage/static/js/2.349750a5.chunk.js.LICENSE.txt",
+    "static/media/Wrap.css": "/cave2_homepage/static/media/staff.f2e1caf2.png",
+    "static/media/WrapSwiper.css": "/cave2_homepage/static/media/img.c0472a04.png",
+    "static/media/note-2.gif": "/cave2_homepage/static/media/note-2.64f0e0db.gif",
+    "static/media/note-3.gif": "/cave2_homepage/static/media/note-3.61d4bde4.gif",
+    "static/media/note-4.gif": "/cave2_homepage/static/media/note-4.787dc4a8.gif",
+    "static/media/note-5.gif": "/cave2_homepage/static/media/note-5.654eb217.gif",
+    "static/media/pop-gzh.png": "/cave2_homepage/static/media/pop-gzh.74e0ed67.png",
+    "static/media/pop-kf.png": "/cave2_homepage/static/media/pop-kf.484bd0de.png",
+    "static/media/Feature.css": "/cave2_homepage/static/media/rotate2.ed2e2d8f.png",
+    "static/media/s-1.jpg": "/cave2_homepage/static/media/s-1.8ba8bb69.jpg",
+    "static/media/s-2.jpg": "/cave2_homepage/static/media/s-2.bdfb6931.jpg",
+    "static/media/selling-point-00.png": "/cave2_homepage/static/media/selling-point-00.dec60648.png",
+    "static/media/selling-point-01.png": "/cave2_homepage/static/media/selling-point-01.f84a6568.png",
+    "static/media/selling-point-02.png": "/cave2_homepage/static/media/selling-point-02.74cca3c3.png",
+    "static/media/selling-point-03.png": "/cave2_homepage/static/media/selling-point-03.00a2f543.png",
+    "static/media/selling-point-04.png": "/cave2_homepage/static/media/selling-point-04.6f6adb23.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aabec2e4.js",
+    "static/css/2.d8f7068e.chunk.css",
+    "static/js/2.349750a5.chunk.js",
+    "static/css/main.68dbb061.chunk.css",
+    "static/js/main.ec082955.chunk.js"
+  ]
+}
