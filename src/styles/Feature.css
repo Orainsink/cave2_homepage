@@ -1,0 +1,56 @@
+.feature {
+    width: 100%;
+    height: 540px;
+    background: #000;
+    box-shadow: 0 0 30px 10px rgba(184,184,184,.2);
+}
+.game-carousel {
+    width: 800px;
+    height: 426px;
+}
+.game-carousel .swiper-slide {
+    width: 696px;
+    height: 413px;
+    text-align: center;
+    opacity: 0;
+}
+.swiper-slide img {
+    width: 696px;
+    height: 413px;
+}
+.game-carousel .swiper-slide-active, .game-carousel .swiper-slide-prev, .game-carousel .swiper-slide-next {
+    opacity: 1;
+}
+.close {
+    width: 32px;
+    height: 32px;
+    background: url(../assets/images/pop-close.png) no-repeat;
+    bottom: -40px;
+    left: 50%;
+    margin-left: -16px;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.close:hover{
+    transform: rotate(180deg);
+}
+.rotate2{
+    width: 494px;
+    height: 494px;
+    background: url(../assets/images/rotate2.png) no-repeat;
+    background-size: 100% 100%;
+    top: 50%;
+    left: 50%;
+    margin: -247px 0 0 -247px;
+    animation: turntable 30s linear infinite;
+}
+.light {
+    width: 450px;
+    height: 450px;
+    background: radial-gradient(circle, #41342F, rgba(65,52,47,0.2));
+    box-shadow: 0 0 40px 40px rgba(65,52,47,0.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}

@@ -1,0 +1,56 @@
+.left-nav{
+    width: 70px;
+    height: 360px;
+    position: fixed;
+    top: 50%;
+    left: 84px;
+    margin-top: -130px;
+    z-index: 100;
+}
+.left-nav a{
+    width: 70px;
+    height: 20px;
+    display: block;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom:40px;
+    color: #756e68;
+    font-size: 14px;
+    position: relative;
+    transition: all .5s;
+}
+.left-nav a i{
+    width: 0;
+    height: 5px;
+    background: url(../assets/images/nav-line.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -2.5px;
+    transition: all .5s;
+}
+.left-nav a.active,
+.left-nav a:hover{
+    color: #b2a79d;
+}
+.left-nav a.active i,
+.left-nav a:hover i{
+    width: 70px;
+}
+.left-nav a img{
+    width: 206px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -103px;
+    z-index: 10;
+    display: none;
+}
+.left-nav a:hover img{
+    display: block;
+    animation: opacity-on .5s linear forwards;
+}
+@keyframes opacity-on{
+    from{opacity: 0;transform: translateY(-10px);}
+    to{opacity: 1;transform: translateY(0);}
+}

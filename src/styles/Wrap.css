@@ -1,0 +1,438 @@
+/**
+    skip btn
+*/
+.skip{
+    width: 90px;
+    height: 32px;
+    border: 1px solid #48443f;
+    position: fixed;
+    top: 100px;
+    right: 40px;
+    z-index: 100;
+}
+.skip i{
+    width: 0;
+    height: 32px;
+    background: #48443f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s;
+}
+.skip:hover i{
+    width: 90px;
+}
+.skip span{
+    width: 90px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #756e68;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* slogan */
+
+.center{
+    width: 1200px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    z-index: 15;
+}
+.slogan{
+    width: 1004px;
+    height: 185px;
+    background: url(../assets/images/slogan.png) no-repeat;
+    top: 70px;
+    left: 50%;
+    margin-left: -355px;
+}
+.slogan .eye{
+    width: 22px;
+    height: 17px;
+    /*background: url(../assets/images/eye.gif) no-repeat;*/
+    top: 110px;
+    left: 433px;
+}
+.slogan .btn-play{
+    width: 70px;
+    height: 68px;
+    background: url(../assets/images/btn-video.png) no-repeat;
+    background-size: 70px 272px;
+    animation: xl-play 0.4s steps(4) infinite;
+    text-indent: -999em;
+    top: 110px;
+    left: 433px;
+}
+
+@keyframes xl-play{
+    100% {
+        background-position: 0 -272px;
+    }
+}
+.btn{
+    text-indent: -999em;
+}
+.btn i,
+.btn em{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.btn em{
+    transition: all .5s;
+    opacity: 0;
+}
+.btn:hover em{
+    opacity: 1;
+}
+
+.down{
+    width: 471px;
+    height: 140px;
+    background: url(../assets/images/down-bg.png) no-repeat;
+    top: 315px;
+    left: 50%;
+    margin-left: -40px;
+}
+.er-down{
+    width: 133px;
+    height: 133px;
+    top: 5px;
+    left: 23px;
+}
+.er-down .down-line{
+    width: 142px;
+    height: 4px;
+    background: url(../assets/images/down-line.png) no-repeat;
+    top: 10px;
+    left: -2px;
+    animation: lines 2s linear infinite;
+}
+@keyframes lines{
+    0%,100%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(110px);
+    }
+}
+.btn-ios{
+    height:71px;
+    width:170px;
+    background: url(../assets/images/btn-ios.png) no-repeat;
+    top: 4px;
+    left: 153px;
+    transition: all .5s;
+    opacity: 1;
+}
+.btn-android{
+    height:71px;
+    width:170px;
+    background: url(../assets/images/btn-android.png) no-repeat;
+    top: 69px;
+    left: 153px;
+    transition: all .5s;
+    opacity: 1;
+}
+.btn-ios:hover,
+.btn-android:hover{
+    opacity: .7;
+}
+
+/*      wrap        */
+
+.section_box {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.section {
+    background: no-repeat 50% 0;
+    width: inherit;
+    margin: 0;
+    position: relative;
+}
+.section1{
+    background-image: url(../assets/images/bg-1.jpg);
+    height: 1284px;
+}
+.section2{
+    background-image: url(../assets/images/bg-2.gif);
+    height: 1385px;
+}
+.section3{
+    background-image: url(../assets/images/bg-3.jpg);
+    height: 1611px;
+}
+.section4{
+    background-image: url(../assets/images/bg-4.jpg);
+    height: 1429px;
+}
+.section5{
+    background-image: url(../assets/images/bg-5.jpg);
+    height: 1771px;
+}
+.section6{
+    background-image: url(../assets/images/bg-6.jpg);
+    height: 1412px;
+}
+#section7{
+    height: 1083px;
+    background: url(../assets/images/bg-7.jpg) 50% 0 no-repeat;
+}
+.floor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: inherit;
+    min-height: inherit;
+    background: no-repeat bottom center;
+    z-index: 10;
+}
+
+#section1 .floor{
+    background-image: url(../assets/images/floor-1.png);
+}
+#section2 .floor{
+    background-image: url(../assets/images/floor-2.png);
+}
+#section3 .floor{
+    background-image: url(../assets/images/floor-3.png);
+}
+#section4 .floor{
+    background-image: url(../assets/images/floor-4.png);
+}
+#section5 .floor{
+    background-image: url(../assets/images/floor-5.png);
+}
+#section6 .floor{
+    background-image: url(../assets/images/floor-6.png);
+}
+.layer{
+    right: 0;
+    bottom: 0;
+    width: inherit;
+    position: absolute;
+}
+.hand{
+    height: 1771px;
+    background-image: url(../assets/images/hand.png);
+    bottom: -200px;
+}
+.gold-coin{
+    height: 1771px;
+    background-image: url(../assets/images/gold-coin.gif);
+}
+.gold-coin-2{
+    height: 1412px;
+    background-position-x: 50%;
+    background-image: url(../assets/images/gold-coin-2.png);
+}
+.gold-coin-3{
+    height: 1412px;
+    background-position-x: 50%;
+    background-image: url(../assets/images/gold-coin-3.png);
+}
+.rockery{
+    height: 1524px;
+    background-image: url(../assets/images/rockery.png);
+}
+.master{
+    height: 1429px;
+    background-image: url(../assets/images/master.png);
+}
+.staff{
+    height: 1429px;
+    background-image: url(../assets/images/staff.png);
+}
+.ceiling {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: -3px;
+    width: inherit;
+    min-height: inherit;
+    background-repeat: no-repeat;
+    background-position: center top;
+    z-index: 10;
+}
+#section2 .ceiling{
+    background-image: url(../assets/images/ceiling-2.png);
+}
+#section3 .ceiling{
+    background-image: url(../assets/images/ceiling-3.png);
+}
+#section4 .ceiling{
+    background-image: url(../assets/images/ceiling-4.png);
+}
+#section5 .ceiling{
+    background-image: url(../assets/images/ceiling-5.png);
+}
+#section6 .ceiling{
+    background-image: url(../assets/images/ceiling-6.png);
+}
+
+/* info */
+.info {
+    top: 100px;
+    right: 300px;
+    z-index: 15;
+}
+
+.info p {
+    color: #756e68;
+    line-height: 30px;
+    font-size: 14px;
+    width: 360px;
+    transition: all 1s linear .5s;
+    opacity: 0;
+    top: 142px;
+    left: 117px;
+}
+
+.turntable{
+    width: 246px;
+    height: 246px;
+    background: url(../assets/images/turntable.png) no-repeat;
+    animation: turntable 30s linear infinite;
+    top: 0;
+    left: 0;
+}
+@keyframes turntable{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.img {
+    background: url(../assets/images/img.png) no-repeat;
+}
+
+.note img{
+    display: none;
+}
+.fadeIn .note img{
+    display: block;
+}
+.fadeIn .english-words{
+    opacity: 1;
+}
+.fadeIn p{
+    opacity: 1;
+}
+.note-1{
+    width: 128px;
+    height: 103px;
+    top: 69px;
+    left: 60px;
+}
+.note-2{
+    width: 139px;
+    height: 102px;
+    top: 76px;
+    left: 54px;
+}
+.note-3{
+    width: 127px;
+    height: 84px;
+    top: 69px;
+    left: 65px;
+}
+.note-4{
+    width: 78px;
+    height: 121px;
+    top: 69px;
+    left: 87px;
+}
+.note-5{
+    width: 127px;
+    height: 126px;
+    top: 43px;
+    left: 65px;
+}
+.note-6{
+    width: 69px;
+    height: 86px;
+    background: url(../assets/images/note-6.png) no-repeat;
+    /*top: 325px;*/
+    top: 450px;
+    left: 0;
+}
+.english-words{
+    height:25px;
+    width:280px;
+    top: 105px;
+    left: 112px;
+    transition: all 1s linear .5s;
+    opacity: 0;
+}
+.copywriting.fadeIn .english-words{
+    opacity: 1;
+}
+.english-words-1{
+    background-position:0 -645px;
+}
+.english-words-2{
+    background-position:0 -678px;
+}
+.english-words-3{
+    background-position:0 -712px;
+}
+.english-words-4{
+    background-position:0 -745px;
+}
+.english-words-5{
+    background-position:0 -780px;
+}
+.english-words-6{
+    background-position:0 -814px;
+    top: 31px;
+    left: 32px;
+    opacity: 1;
+}
+
+.underline-box {
+    height: 3px;
+    width: 0;
+}
+
+.underline {
+    height: 100%;
+    width: 0;
+    background: rgba(88,16,14,0.8);
+    animation: underline 1s linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes underline {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+.p-letters {
+    white-space: pre-line;
+}
+.turntable2{
+    width: 550px;
+    height: 550px;
+    background: url(../assets/images/rotate2.png) center no-repeat;
+    animation: turntable 30s linear infinite;
+    top: 50%;
+    left: 50%;
+    margin: -222px 0 0 -309px;
+}

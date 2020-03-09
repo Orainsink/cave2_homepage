@@ -1,0 +1,55 @@
+
+.carousel{
+    width: 813px;
+    height: 461px;
+    top: 365px;
+    left: 50%;
+    margin-left: -239px;
+}
+.carousel .swiper-pagination-bullet{
+    height:12px;
+    width:12px;
+    background:url(../assets/images/img.png) -263px 0 no-repeat;
+    opacity: 1;
+}
+.carousel .swiper-pagination-bullet-active{
+    background:url(../assets/images/img.png) -263px -17px no-repeat;
+}
+.carousel .swiper-container-horizontal>.swiper-pagination{
+    bottom: 45px;
+}
+.carousel .swiper-pagination{
+    text-align: left;
+}
+.carousel .swiper-pagination-bullet{
+    margin: 0 3px;
+}
+.carousel .swiper-pagination-bullet:nth-child(1){
+    margin: 0 3px 0 70px;
+}
+.btn-prev{
+    height:56px;
+    width:56px;
+    bottom: 125px;
+    right: 0;
+    z-index: 15;
+}
+.btn-prev i{
+    background:url(../assets/images/img.png) 0 0 no-repeat;
+}
+.btn-prev em{
+    background:url(../assets/images/img.png) -68px 0 no-repeat;
+}
+.btn-next{
+    height:56px;
+    width:56px;
+    bottom: 70px;
+    right: 0;
+    z-index: 15;
+}
+.btn-next i{
+    background:url(../assets/images/img.png) 0 -63px no-repeat;
+}
+.btn-next em{
+    background:url(../assets/images/img.png) -68px -63px no-repeat;
+}
